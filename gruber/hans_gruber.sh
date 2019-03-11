@@ -12,17 +12,17 @@ FLASH='\033[5m'
 # SET BASH COLOUR
 clear
 
-printf "${LGREE}                     _   _                _             _             \n"
-printf "${LGREE1} _ __   _____      _| |_| |__   ___  ___ | | ___   __ _(_) __ _ _ __  \n"
-printf "${LGREE1}| |_ \ / _ \ \ /\ / / __| |_ \ / _ \/ _ \| |/ _ \ / _\ | |/ _| | |_ \ \n"
-printf "${LGREE1}| | | |  __/\ V  V /| |_| | | |  __/ (_) | | (_) | (_| | | (_| | | | |\n"
-printf "${LGREE1}|_| |_|\___| \_/\_/  \__|_| |_|\___|\___/|_|\___/ \__, |_|\__,_|_| |_|\n"
-printf "${LGREE1}                                                  |___/               \n"
+printf "${LGREE}\n"
+printf "${LGREE1}\n"
+printf "${LGREE1}\n"
+printf "${LGREE1}\n"
+printf "${LGREE1}\n"
+printf "${LGREE1}\n"
 printf "${LGREE1}>>> ${LGREE}Hans Gruber v1.0 - Shaun Keir 2016\n"
 printf "${LGREE1}>>> ${LGREE}Nothing special. Just a little bash script\n"
 printf "${LGREE1}>>> ${LGREE}to download some settings for my i3 desktop\n ${NC}"
 echo
-printf "${LGREE}@newtheologian  |  new.theologian@gmail.com\n ${NC}"
+printf "${LGREE}notwitter  |  noemail\n ${NC}"
 echo
 # echo Your current external IP is:
 # dig +short myip.opendns.com @resolver1.opendns.com
