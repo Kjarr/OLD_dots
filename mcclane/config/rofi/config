@@ -1,0 +1,54 @@
+! ------------------------------------------------------------------------------
+!                      ROFI Settings
+! ------------------------------------------------------------------------------
+
+! ------------------------------------------------------------------------------
+! 					   General
+! ------------------------------------------------------------------------------
+rofi -fake-transparency:   	true
+rofi hide-scrollbar:      	false
+rofi.color-enabled: 		true
+
+! ------------------------------------------------------------------------------
+! 					   Layout
+! ------------------------------------------------------------------------------
+
+rofi.modi:                           ssh,window,drun,run
+rofi.terminal:                       terminator
+rofi.ssh-client:                     ssh
+rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
+rofi.opacity:                        90
+rofi.width:                          50
+rofi.lines:                          10
+rofi.columns:                        2
+rofi.font:                           Liberation Serif 13
+show-icons: 						 true;
+! Border Width
+rofi.bw:                             0		
+rofi.location:                       0
+rofi.padding:                        0
+rofi.levenshtein-sort:               true
+rofi.case-sensitive:                 false
+rofi.fuzzy:                          false
+rofi.line-margin:                    0
+rofi.separator-style:                solid
+rofi.hide-scrollbar:                 true
+rofi.markup-rows:                    false
+rofi.scrollbar-width: 				 8
+rofi location:      			     0
+rofi.padding:        			     55
+rofi.sidebar-mode:    				 false
+rofi.fullscreen:         			 true
+rofi.color-enabled: true
+
+
+! ------------------------------------------------------------------------------
+!                      ROFI Color theme
+! ------------------------------------------------------------------------------
+! State                  'bg'           'fg'     'bgalt'        'hlbg'         'hlfg'
+rofi.color-normal: 		 argb:002f343f, #d8dee8, argb:002f343f, argb:002f343f, #bf616a
+rofi.color-active: 		 #2f343f,       #b48ead, #2f343f,       #2f343f,       #93e5cc
+rofi.color-urgent: 		 #2f343f,       #ebcb8b, #2f343f,       #2f343f,       #ebcb8b
+
+!                        'bg'     		'bc'		   'ul'
+rofi.color-window: 		 argb:cc222222, argb:00222222, argb:00222222
