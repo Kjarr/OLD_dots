@@ -6,7 +6,7 @@ Sourced by Pacman -Qqe
 clamtk ufw
 
 #General Tools
-firefox-i18n-en-gb geany geary
+min firefox-i18n-en-gb geany geary
 
 #Shell
 fish ranger elinks terminator
